@@ -1,0 +1,27 @@
+{
+  "name": "discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sapphire/framework": "^5.2.1",
+    "@sapphire/plugin-hmr": "^3.0.1",
+    "@sapphire/plugin-i18next": "^7.1.2",
+    "@sapphire/plugin-subcommands": "^6.0.3",
+    "@sapphire/utilities": "^3.16.2",
+    "discord.js": "^14.15.3"
+  },
+  "devDependencies": {
+    "@sapphire/eslint-config": "^5.0.5"
+  },
+  "eslintConfig": {
+    "extends": "./modules/@sapphire/eslint-config/index.js"
+  }
+}
